@@ -1,0 +1,28 @@
+
+	   
+img 
+{ 
+	border:0;
+	width:90px;
+	height:60px;
+}
+table { border-collapse:collapse; }
+input { font-size:14px; }
+
+a:link, a:visited { text-decoration: none;}
+a:hover, a:active { text-decoration: none;}
+
+#shopping {text-align:center; margin:0 auto;width:1500PX;}
+#shopping table { width:1500px; line-height:24px; border:4px solid rgba(102,102,102,1); }
+#shopping table th { background:rgba(153,51,255,1); color:black; }
+#shopping table td { padding:10px 0; border:1px solid rgba(102,102,102,1); background:rgba(153,51,255,0.4); }
+#shopping table td.thumb img { border:2px solid #dfdfe0; margin-left:200px; vertical-align:middle; }
+#shopping table td.price,
+#shopping table td.number { text-align:center; width:200px; border-left:1px solid #e1e1e1; font-size:20px;}
+#shopping table td.price { color:#cc3300; font-weight:bold; font-size:20px;}
+#shopping table td.delete { width:150px; text-align:center; border-left:1px solid #e1e1e1; font-size:20px;}
+#shopping table td.number span {padding:0 2px;border:7px #c0c0c0 solid;cursor:pointer; font-size:20px;}
+#shopping .total{height:160px; font-size:30px; }
+#shopping .total span{line-height:60px;}
+
+

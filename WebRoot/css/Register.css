@@ -1,0 +1,115 @@
+@CHARSET "UTF-8";
+
+body{
+	margin:0;
+	padding:0;
+	}
+.div_bg{
+	position:absolute;
+	width:1920px;
+	height:955px;
+	background-color:rgba(153,153,153,0.4);
+	}
+.bg{
+	margin: 0;
+    padding: 0;
+    background: url(../picture/bg-i-jordan.jpg);
+    repeat: no-repeat;
+    background-attachment:fixed;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../picture/bg-i-jordan.jpg', sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../picture/bg-i-jordan.jpg', sizingMethod='scale');
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+	}
+.bg_div{
+	position:absolute;
+	background-color: rgba(153,0,255,0.2);
+	width:500px;
+	height:700px;
+	margin-left:150px;
+	margin-top:100px;
+	border-radius:40px;
+	}
+input{
+	width:300px;
+	height:50px;
+	background-color: rgba(255,255,0,0.8);
+	border:1px solid rgba(255,255,255,1);
+	margin-top:30px;
+	font-size:20px;
+	text-align:center;
+	color: rgba(153,0,255,1);
+	border-radius:15px;
+	 background: -moz-linear-gradient(#90C,yellow); /* Firefox 3.6 - 15 */
+	}
+.input_div{
+	margin-left:100px;
+	margin-top:-20px;
+	}
+.div_h1{
+	font-size:45px;
+	color:rgba(255,255,255,1);
+	margin-left:150px;
+	}
+.div_button{
+	width:100px;
+	height:100px;
+	border:2px solid rgba(204,204,0,1);
+	background-color:rgba(153,51,255,1);
+	border-radius:50%;
+	margin-top:40px;
+	margin-left:50px;
+	}
+.div_button p{
+	font-size:18px;
+	color:rgba(153,51,255,1);
+	}
+.div_button2{
+	width:50px;
+	height:50px;
+	border:1px solid  rgba(0,0,255,0.5);
+	background-color:rgba(153,51,255,1);
+	border-radius:50%;
+	margin-top:40px;
+	margin-left:50px;
+	}
+.div_button2 p{
+	font-size:12px;
+	color: rgba(255,0,0,1);
+	}
+input:hover{
+	background: -moz-linear-gradient(yellow,#90C);
+	box-shadow:0 0 2px 3px red, 0 0 4px 2px #FFFF00;
+	}
+input:focus{
+	background: -moz-linear-gradient( rgba(255,255,255,1), rgba(255,255,255,1));}
+button:hover{
+	background-color: rgba(0,0,255,0.5);}
+span{
+	font-size:22px;
+	margin-left:25px;
+	color:rgba(255,255,255,1);
+	}
+.div_footer{
+	margin-left:60px;
+	margin-top:130px;
+	width:65px;
+	height:65px;
+	border:2px solid rgba(255,255,255,1);
+	border-radius:50%;
+	}
+.div_footer p{
+	text-align:center;
+	margin-top:15px;
+	font-size:25px;
+	color:rgba(255,255,255,1);
+	}
+.div_footer:hover{
+	background-color:rgba(102,102,102,0.6);
+	
+	}
+.div_p:hover{
+	color:rgba(255,204,0,1);
+	}
+

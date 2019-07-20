@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+
+.bg{
+	margin: 0;
+    padding: 0;
+    background: url(../picture/bg-i-jordan.jpg);
+    repeat: no-repeat;
+    background-attachment:fixed;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../picture/bg-i-jordan.jpg', sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../picture/bg-i-jordan.jpg', sizingMethod='scale');
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+	}
+.div_bg{
+	position:absolute;
+	width:1920px;
+	height:955px;
+	background-color:rgba(153,153,153,0.4);
+	}
+
+nav{
+	margin-top:70px;
+	margin-left:50px;
+	}
+nav>a{
+	font-family: "宋体";
+	font-size:30px;
+	color:rgba(255,255,255,1);
+	margin-left:40px;
+	}
+.div_p1 {
+	text-align:center;
+	margin-top:270px;
+	font-family: "微软雅黑";font-size: 100px;color: #333;
+	color:rgba(255,255,255,1);
+	}
+
+.div_p2 {
+	text-align:center;
+	margin-top:-85px;
+	font-family: "宋体";font-size: 40px;color: #333;
+	color:rgba(255,255,255,1);
+	
+	}
+.div_p3{
+	width: 270px;
+	height: auto;
+	border:2px solid rgba(255,204,0,0.7);
+	text-align:center;
+	margin:0 auto;
+	margin-top:120px;
+	font-family: "微软雅黑";font-size: 20px;color: #333;
+	color:rgba(255,255,255,1);
+	}
+.div_p3:hover{
+	background-color:rgba(102,102,102,0.6);
+	color:rgba(255,204,0,1);
+	}
+.div_footer{
+	margin-left:40px;
+	margin-top:130px;
+	width:65px;
+	height:65px;
+	border:2px solid rgba(255,255,255,1);
+	border-radius:50%;
+	}
+.div_footer p{
+	text-align:center;
+	margin-top:15px;
+	font-size:30px;
+	color:rgba(255,255,255,1);
+	}
+.div_footer:hover{
+	background-color:rgba(102,102,102,0.6);
+	
+}
+.div_p:hover{
+	color:rgba(255,204,0,1);
+	}
+i:hover{
+	color:rgba(255,204,0,1);
+	}
+

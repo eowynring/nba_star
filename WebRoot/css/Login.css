@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+.bg{
+	margin: 0;
+    padding: 0;
+    background: url(../picture/bg-i-jordan.jpg);
+    repeat: no-repeat;
+    background-attachment:fixed;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../picture/bg-i-jordan.jpg', sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../picture/bg-i-jordan.jpg', sizingMethod='scale');
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+	
+	}
+.div_bg{
+	position:absolute;
+	width:1920px;
+	height:955px;
+	background-color:rgba(153,153,153,0.4);
+	}
+
+.submit  {
+	position:absolute;
+	display:block;
+	border:1px solid rgba(255,204,102,1);
+	width: 100px;
+	height: 50px;
+	background-color:rgba(255,204,102,0.5);
+	border-radius:30px;
+	margin-left:200px;
+	margin-top:40px;
+	}
+
+input:hover{
+	border:2px solid rgba(255,204,102,0.6);
+	background-color: rgba(51,102,204,1);
+	}
+button:hover{
+	background-color: rgba(255,0,0,1);
+	}
+span{
+	font-size:22px;
+	margin-left:25px;
+	color:rgba(255,255,255,1);
+	}
+.login_div{
+	position:absolute;
+	top:200px;
+	left:200px;
+	width:500px;
+	height:520px;
+	border-radius:20px;
+	background-color: rgba(51,102,204,1);
+	opacity:0.5;
+	}
+.login_p{
+	font-size:50px;
+	color:rgba(255,204,102,1);
+	margin-left:190px;
+	padding-top:30px;
+	}
+.login_input{
+	width:300px;
+	height:40px;
+	margin-left:20px;
+	background-color: rgba(255,204,153,0.2);
+	border:2px solid rgba(255,255,255,1);
+	border-radius:5px;
+	font-size:0.8em;
+	-moz-transition:0.5s ease;}

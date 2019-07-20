@@ -1,0 +1,180 @@
+@CHARSET "UTF-8";
+.bg{
+	margin: 0;
+    padding: 0;
+    background: url(../picture/Stars/goffy.jpg);
+    repeat: no-repeat;
+    background-attachment:fixed;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='imgs/goffy.jpg', sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='imgs/goffy.jpg', sizingMethod='scale');
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+	}
+.div_bg{
+	position:absolute;
+	width:1920px;
+	height:955px;
+	background-color:rgba(153,153,153,0.4);
+	}
+
+.div_jordan{
+	width:200px;
+	height:200px;
+	border:2px solid rgba(255,0,0,1);
+	margin-left:180px;
+	margin-top:150px;
+	border-radius:50%;
+	
+	}
+.div_jordan img{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	}
+.div_jordan:hover{
+	border:2px solid rgba(51,204,0,1);
+	opacity:0.5;
+	}
+	
+.div_kobe{
+	width:150px;
+	height:150px;
+	border:2px solid rgba(255,0,0,1);
+	margin-left:420px;
+	margin-top:-10px;
+	border-radius:50%;
+	}
+.div_kobe img{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	}
+.div_kobe:hover{
+	border:2px solid rgba(51,204,0,1);
+	opacity:0.5;
+	}
+	
+.div_james{
+	width:240px;
+	height:240px;
+	border:2px solid rgba(255,0,0,1);
+	margin-left:680px;
+	margin-top:-380px;
+	border-radius:50%;
+	}
+.div_james img{
+	width:240px;
+	height:240px;
+	border-radius:50%;
+	}
+.div_james:hover{
+	border:2px solid rgba(51,204,0,1);
+	opacity:0.5;
+	}
+	
+.div_yao{
+	width:120px;
+	height:120px;
+	border:2px solid rgba(255,0,0,1);
+	margin-left:1180px;
+	margin-top:-250px;
+	border-radius:50%;
+	}
+.div_yao img{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	}
+.div_yao:hover{
+	border:2px solid rgba(51,204,0,1);
+	opacity:0.5;
+	}
+	
+.div_paul{
+	width:200px;
+	height:200px;
+	border:2px solid rgba(255,0,0,1);
+	margin-left:1480px;
+	margin-top:-20px;
+	border-radius:50%;
+	}
+.div_paul img{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	}
+.div_paul:hover{
+	border:2px solid rgba(51,204,0,1);
+	opacity:0.5;
+	}
+	
+.div_irving{
+	width:200px;
+	height:200px;
+	border:2px solid rgba(255,0,0,1);
+	margin-left:980px;
+	margin-top:-50px;
+	border-radius:50%;
+	}
+.div_irving img{
+	width:200px;
+	height:200px;
+	border-radius:50%;
+	}
+.div_irving:hover{
+	border:2px solid rgba(51,204,0,1);
+	opacity:0.5;
+	}
+	
+.div_Oneal{
+	width:270px;
+	height:270px;
+	border:2px solid rgba(255,0,0,1);
+	margin-left:550px;
+	border-radius:50%;
+	}
+.div_Oneal img{
+	width:270px;
+	height:270px;
+	border-radius:50%;
+	}
+.div_Oneal:hover{
+	border:2px solid rgba(0,153,0,1);
+	opacity:0.5;
+	}
+	
+.div_siji{
+	width:170px;
+	height:170px;
+	border:2px solid rgba(255,0,0,1);
+	margin-left:1300px;
+	margin-top:-250px;
+	border-radius:50%;
+	}
+.div_siji img{
+	width:170px;
+	height:170px;
+	border-radius:50%;
+	}
+.div_siji:hover{
+	border:2px solid rgba(0,153,0,1);
+	opacity:0.5;
+	}
+button{
+	margin-left:1750px;
+	margin-top:40px;
+	width:100px;
+	height:100px;
+	background-color:rgba(204,51,0,1);
+	border-radius:50%;
+	border:2px;
+	}
+.img{
+	width:50px;
+	height:50px;
+	color: rgba(255,255,255,1);
+	}
+button:hover{
+	background-color:rgba(0,153,0,1);
+	}
